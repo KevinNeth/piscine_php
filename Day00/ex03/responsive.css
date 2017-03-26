@@ -1,0 +1,227 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   responsive.css                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kneth <kneth@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/22 17:04:58 by kneth             #+#    #+#             */
+/*   Updated: 2017/03/23 10:47:47 by kneth            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+.size
+{
+	border: 1px solid black;
+	min-width: 100px;
+	width: 100px;
+	height:100px;
+}
+
+.size2
+{
+	min-width: 100px;
+	width: 100px;
+	height:100px;
+}
+
+.size3
+{
+	min-width: 100px;
+	width: 100px;
+	height: 50px;
+}
+
+.symb
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20;
+	padding : 20px 0 20px 0;
+}
+
+.symb2
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20;
+	padding : 40px 0 20px 0;
+}
+
+.numb
+{
+	text-align: left;
+}
+
+.weight
+{
+	text-align: right;
+}
+
+#auteur
+{
+	font-style: italic;
+	font-family:monospace;
+}
+
+p
+{
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 1801px) and (max-width: 2200px)
+{
+	.size
+	{
+		border: 1px solid black;
+		min-width: 90px;
+		width: 90px;
+		height:90px;
+	}
+
+	.size2
+	{
+		min-width: 90px;
+		width: 90px;
+		height:90px;
+	}
+
+	.size3
+	{
+		min-width: 90px;
+		width: 90px;
+		height: 45px;
+	}
+
+	.symb
+	{
+		text-align: center;
+		font-weight: bold;
+		font-size: 15;
+		padding : 15px 0 15px 0;
+	}
+
+	.symb2
+	{
+		text-align: center;
+		font-weight: bold;
+		font-size: 15;
+		padding : 35px 0 15px 0;
+	}
+
+	.numb
+	{
+		text-align: left;
+	}
+
+	.weight
+	{
+		text-align: right;
+	}
+
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1800px)
+{
+	.size
+	{
+		border: 1px solid black;
+		min-width: 80px;
+		width: 80px;
+		height:80px;
+	}
+
+	.size2
+	{
+		min-width: 80px;
+		width: 80px;
+		height:80px;
+	}
+
+	.size3
+	{
+		min-width: 80px;
+		width: 80px;
+		height: 40px;
+	}
+
+	.symb
+	{
+		text-align: center;
+		font-weight: bold;
+		font-size: 15;
+		padding : 15px 0 15px 0;
+	}
+
+	.symb2
+	{
+		text-align: center;
+		font-weight: bold;
+		font-size: 15;
+		padding : 35px 0 15px 0;
+	}
+
+	.numb
+	{
+		text-align: left;
+	}
+
+	.weight
+	{
+		text-align: right;
+	}
+
+}
+
+@media screen and (max-width: 1500px)
+{
+	.size
+	{
+		border: 1px solid black;
+		min-width: 70px;
+		width: 70px;
+		height:70px;
+	}
+
+	.size2
+	{
+		min-width: 70px;
+		width: 70px;
+		height:70px;
+	}
+
+	.size3
+	{
+		min-width: 70px;
+		width: 70px;
+		height: 30px;
+	}
+
+	.symb
+	{
+		text-align: center;
+		font-weight: bold;
+		font-size: 10;
+		padding : 10px 0 10px 0;
+	}
+
+	.symb2
+	{
+		text-align: center;
+		font-weight: bold;
+		font-size: 10;
+		padding : 30px 0 10px 0;
+	}
+
+	.numb
+	{
+		text-align: left;
+	}
+
+	.weight
+	{
+		text-align: right;
+	}
+
+}

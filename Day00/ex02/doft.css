@@ -1,0 +1,220 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   doft.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kneth <kneth@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/19 17:08:01 by kneth             #+#    #+#             */
+/*   Updated: 2017/03/22 16:34:36 by kneth            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body
+{
+	background-color: #505050;
+}
+
+.default
+{
+	overflow: hidden;
+	box-shadow: 10px 10px 12px #000000;
+	background-color: #909090;
+	border-radius: 10px;
+}
+
+#masterdiv
+{
+	position: relative;
+	margin: 0 auto;
+	width: 1400px;
+}
+
+#div1
+{
+	display: block;
+	margin-top: 20px;
+}
+
+#sizedot42
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 430px;
+	height: 114px;
+}
+
+#sizeloupe
+{
+	position: absolute;
+	right: 32px;
+	top: 11px;
+}
+
+#sizereload
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#sizeclose
+{
+	position: absolute;
+	right: 10px;
+	top: 105px;
+}
+
+#div2
+{
+
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 135px;
+	height: 420px;
+}
+
+#sizearrow
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+#sizehand
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+#sizeeye
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 30px;
+	margin-top: 1px;
+	border: 4px solid red;
+	border-radius: 5px;
+}
+
+#sizetools
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 33px;
+}
+
+#sizechat
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 33px;
+}
+
+#div3
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+#sizecluster
+{
+	display: block;
+	margin-left: 12px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	width: 985px;
+	height: 555px;
+}
+
+#div4
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left: 25px;
+	width: 140px;
+	height: 420px;
+}
+
+#sizebook
+{
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	width: 70px;
+	height: 90px;
+}
+
+#sizetowel
+{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	width: 75px;
+	height: 55px;
+}
+
+#sizebrick
+{
+	margin: auto;
+	width: 85%;
+	height: 4em;
+	background-image: url("resources/brick.jpg");
+}
+
+.green
+{
+	position: absolute;
+	box-shadow: 10px 10px 12px #000000;
+	background-color: #83FF91;
+	border-radius: 10px;
+	width: 517px;
+	height: 170px;
+	left: 189px;
+	bottom: 57px;
+}
+
+.defaulttext
+{
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+
+#bigtext
+{
+	font-size: 35px;
+}
+
+#shadowtext
+{
+	text-shadow: 0.25em 0.25em 0.25em #FE4747;
+}
+
+#input
+{
+	margin-left: 15px;
+}
+
+#submit
+{
+	margin-left: 5px;
+	width: 80px;
+	background-color: #DBE4DD;
+	border: 1px solid;
+	border-radius : 2px;
+	cursor: pointer;
+}
